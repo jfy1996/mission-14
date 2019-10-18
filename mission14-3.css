@@ -1,0 +1,105 @@
+@charset "UTF-8";
+main .cooperation {
+  opacity: 1;
+  background: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15); }
+
+main .pic-main-top {
+  width: 100%; }
+main .navigation-1 {
+  background-color: #fafafa;
+  padding: 0;
+  font-size: 1.6rem;
+  margin-top: 3.1rem;
+  margin-bottom: 3.2rem;
+  /*面包屑导航栏，首页。职业*/ }
+  main .navigation-1 .word-navigation-1 {
+    color: #333333; }
+  main .navigation-1 .word-navigation-2 {
+    color: #29B078; }
+  main .navigation-1 .word-navigation-1, main .navigation-1 .word-navigation-2 {
+    font-size: 1.6rem;
+    margin-top: 3.3rem;
+    margin-bottom: 2.9rem; }
+
+.box-recommend {
+  padding-bottom: 23.1rem; }
+  .box-recommend .word-company {
+    font-size: 2.2rem;
+    margin: 0;
+    padding-top: 2.1rem;
+    padding-bottom: 2.4rem;
+    text-align: center;
+    border-bottom: 1px solid #E6E6E6; }
+
+.list-company-main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3.5rem;
+  /*以下是公司列表栏*/ }
+  .list-company-main .list-word {
+    margin-top: 2.5rem;
+    margin-left: 25%;
+    /*被激活的原点背景色改变*/ }
+    .list-company-main .list-word .word-company-1 {
+      font-size: 1.4rem;
+      color: #29B078;
+      background-color: #fff; }
+      .list-company-main .list-word .word-company-1 .word-point {
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid #ff650e;
+        display: inline-block;
+        margin-right: 0.7rem; }
+    .list-company-main .list-word .active .word-point {
+      background-color: #ff650e;
+      color: #ff650e; }
+    .list-company-main .list-word .active {
+      color: #ff650e;
+      background-color: #fff; }
+
+/*以上是公司列表栏*/
+@media (max-width: 768px) {
+  .content-box .list-word {
+    margin-top: 2.5rem;
+    margin-left: 40%; } }
+.content-company {
+  opacity: 1;
+  background: white;
+  box-shadow: 0 1px 3px 0 rgba(8, 1, 3, 0.15); }
+  .content-company .pic-logo-main {
+    display: flex;
+    padding: 2.5rem 7.2% 1.6rem 9.5%;
+    border-bottom: 1px solid #E6E6E6; }
+    .content-company .pic-logo-main .pic-logo-3 {
+      width: 13.4rem;
+      height: 12.2rem;
+      background: url("img/img.png") no-repeat -104.6rem 0;
+      background-size: 207.7rem 17.6rem; }
+  .content-company .introduction-title, .content-company .introduction-content {
+    font-size: 1.4rem;
+    color: #999999;
+    flex: 1;
+    text-indent: 2.8rem; }
+  .content-company .introduction-title {
+    margin-left: 2.5rem;
+    line-height: 2.8rem; }
+
+@media (max-width: 992px) {
+  .pic-logo-main {
+    flex-direction: column; }
+    .pic-logo-main .introduction-title {
+      margin: 0; }
+
+  .pic-logo-3 {
+    margin-left: auto;
+    margin-right: auto; } }
+.introduction-text {
+  padding: 0 7.2% 18.4rem 7.2%; }
+  .introduction-text .introduction-content {
+    margin-top: 3.8rem;
+    line-height: 2.8rem; }
+
+/*# sourceMappingURL=mission14-3.css.map */
